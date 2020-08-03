@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*FONTS 
+font-family: 'Dancing Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+*/
+
+p{
+    font-size: 1rem;
+}
+h3{
+    font-size: 1.5rem;
+    color: #FBFEF9;
+}
+h2{
+    font-size: 2rem;  
+}
+body{
+    overflow-x: hidden !important;
+    width: 100vw;
+}
+
+.cta{
+    padding: 40% 0;
+    color: #FBFEF9;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 1.6rem;
+    text-decoration: none;
+    border-radius: 2.5rem;
+    display: block;
+    height: 100%;
+    -webkit-box-shadow: 7px 7px 20px 0px rgba(0,0,0,0.8);
+    -moz-box-shadow: 7px 7px 20px 0px rgba(0,0,0,0.8);
+    box-shadow: 7px 7px 20px 0px rgba(0,0,0,0.8);
+    transition-duration: 0.3s;
+    border: 1.3px solid #FBFEF9;
+}
+.cta:active{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    transition-duration: 0.3s;
+    border: 0.3px solid #FBFEF9;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100vw !important;
+    overflow-x: hidden !important;
+}
+.bigwrap{
+    background: url(/buona/img/wrappercover.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.div1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.left{
+    height: auto;
+    flex: 1;
+    padding-top: 0;
+    margin: 1rem 0.5rem;
+    border-radius: 2.5rem;
+    
+}
+.right{
+    height: auto;
+    flex: 1;
+    padding-top: 0%;
+    margin: 1rem 0.5rem;
+    border-radius: 2.5rem;
+}
+.centertext{
+    text-align: center;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 5%;
+    background: url(/buona/img/ristorantecover.jpg); 
+    -webkit-box-shadow: 0px 3px 25px 0px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px 3px 25px 0px rgba(0,0,0,0.8);
+    box-shadow: 0px 3px 25px 0px rgba(0,0,0,0.8);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.logo{
+    width: 70%;
+}
+.centertext h2{
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 2rem;
+    color: #FBFEF9;
+}
+.left1{
+    background: url(/buona/img/starters.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.right1{
+    background-image: url(/buona/img/pasta.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.left2{
+    background: url(/buona/img/main.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.right2{
+    background-image: url(/buona/img/pizza.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.left3{
+    background: url(/buona/img/dessert.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.right3{
+    background-image: url(/buona/img/drinks.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+/* MENUS */
+.menuitem{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+}
+.wrapper2{
+    padding: 2% 7%;
+}
+.menuleft{
+    flex: 4;
+}
+.menuright{
+    flex: 1;
+    text-align: right;
+}
+.lefttext{
+    padding-bottom: 1rem;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.itemname{
+    color: #E65F5C;
+}
+
+
+/* BACK TO HOME BUTTON */
+.backtohome{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+    padding-top: 0.75rem;
+    color: white;
+    border-radius: 50%;
+    background-color: #E65F5C;
+    opacity: 0.7;
+    transition-duration: 0.3s;
+}
+.backtohome i{
+    font-size: 1.5rem;
+}
+.backtohome:active{
+    opacity: 1;
+    transition-duration: 0.3s;
+}
